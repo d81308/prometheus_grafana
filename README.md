@@ -39,3 +39,8 @@ rate(net_bytes_recv[1m])*8
 <li>Bird</li>
 <li>Magic</li>
 </ul>
+
+<ul>
+<li><p>Bird</p></li>
+<li><p>Magic</p></li>
+</ul>
