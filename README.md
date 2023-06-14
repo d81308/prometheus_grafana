@@ -39,3 +39,5 @@ sum(ping_packets_received) by (service_name)
 #group by multi-lable_pivot-like
 sum(ping_packets_received) by (service_name,host)
 </code></pre></ol>
+<ol>top method
+</ol>
