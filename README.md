@@ -22,7 +22,7 @@ ping_average_response_ms{service_name='amazon',url='amazon.cn'}
 [filtering-with-regex]
 ping_average_response_ms{url=~"^amazon.*"}
 ping_average_response_ms{url!~"^amazon.*"}
- double filtering
+<ol>double filtering
   <br />
   ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
 - filter by value
