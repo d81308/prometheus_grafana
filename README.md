@@ -31,3 +31,11 @@ ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 rate(net_bytes_recv[1m])
 #transform bytes to bit
 rate(net_bytes_recv[1m])*8</code></pre></ol>
+
+[Aggregation operators]
+<ol><pre><code>sum(ping_packets_received)
+#group by a label_pivot-like
+sum(ping_packets_received) by (service_name)
+#group by multi-lable_pivot-like
+sum(ping_packets_received) by (service_name,host)
+</code></pre></ol>
