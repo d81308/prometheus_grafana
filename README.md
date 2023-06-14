@@ -34,3 +34,8 @@ net_bytes_recv[1m]
 rate(net_bytes_recv[1m])
 - transform bytes to bit
 rate(net_bytes_recv[1m])*8
+
+<ul>
+<li>Bird</li>
+<li>Magic</li>
+</ul>
