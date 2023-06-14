@@ -19,14 +19,13 @@ github:
 ping_average_response_ms{service_name='amazon',url='amazon.cn'}</code></pre></ol>
 
 [filtering-with-regex]
-<ol>ping_average_response_ms{url=~"^amazon.*"}</ol>
-<ol>ping_average_response_ms{url!~"^amazon.*"}</ol>
-<ol>double filtering
-  <ol>ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}</ol>
-  </ol>
-- filter by value
+<ol><pre><code>ping_average_response_ms{url=~"^amazon.*"}
+ping_average_response_ms{url!~"^amazon.*"}
+#double filtering
+ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
+#filter by value
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
-<br />
+</code></pre></ol>
 
 [vector=range]
 net_bytes_recv[1m]
