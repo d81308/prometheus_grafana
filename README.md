@@ -21,9 +21,9 @@ github:
 [filtering-with-regex]
 <ol>ping_average_response_ms{url=~"^amazon.*"}</ol>
 <ol>ping_average_response_ms{url!~"^amazon.*"}</ol>
-double filtering
-<br />
-  ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
+<ol>double filtering
+  <ol>ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}</ol>
+  </ol>
 - filter by value
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 <br />
