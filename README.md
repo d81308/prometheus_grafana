@@ -15,15 +15,13 @@ github:
 
 # PromQL
 [filtering]
-<ol>ping_average_response_ms{service_name!='github'}
-ping_average_response_ms{service_name='amazon',url='amazon.cn'}</ol>
-<br />
+<ol>ping_average_response_ms{service_name!='github'}</ol>
+<ol>ping_average_response_ms{service_name='amazon',url='amazon.cn'}</ol>
 
 [filtering-with-regex]
-ping_average_response_ms{url=~"^amazon.*"}
-ping_average_response_ms{url!~"^amazon.*"}
-<ol>double filtering
-</ol>
+<ol>ping_average_response_ms{url=~"^amazon.*"}</ol>
+<ol>ping_average_response_ms{url!~"^amazon.*"}</ol>
+double filtering
 <br />
   ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
 - filter by value
