@@ -28,10 +28,8 @@ ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 </code></pre></ol>
 
 [vector=range]
-<ol><pre><code>
-net_bytes_recv[1m]
+<ol><pre><code>net_bytes_recv[1m]
 #calculate speed
 rate(net_bytes_recv[1m])
 #transform bytes to bit
-rate(net_bytes_recv[1m])*8
-</code></pre></ol>
+rate(net_bytes_recv[1m])*8</code></pre></ol>
