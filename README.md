@@ -44,3 +44,10 @@ rate(net_bytes_recv[1m])*8
 <li><p>Bird</p></li>
 <li><p>Magic</p></li>
 </ul>
+
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>
