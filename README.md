@@ -8,6 +8,7 @@ plugin:
 [prometheus]
 get_start:
   https://prometheus.io/docs/prometheus/latest/getting_started/
+  <br />
 github:
   https://github.com/prometheus/prometheus
 
