@@ -15,8 +15,8 @@ github:
 
 # PromQL
 [filtering]
-ping_average_response_ms{service_name!='github'}
-ping_average_response_ms{service_name='amazon',url='amazon.cn'}
+<ol>ping_average_response_ms{service_name!='github'}
+ping_average_response_ms{service_name='amazon',url='amazon.cn'}</ol>
 <br />
 
 [filtering-with-regex]
