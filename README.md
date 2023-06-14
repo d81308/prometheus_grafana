@@ -1,5 +1,5 @@
 # prometheus_grafana
-### user manuals, packages
+## user manuals, packages
 
 [telegraf]
 plugin:
@@ -13,7 +13,7 @@ github:
   https://github.com/prometheus/prometheus
 
 
-# PromQL
+## PromQL
 [filtering]
 <ol><pre><code>ping_average_response_ms{service_name!='github'}
 ping_average_response_ms{service_name='amazon',url='amazon.cn'}</code></pre></ol>
