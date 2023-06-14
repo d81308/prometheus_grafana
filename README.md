@@ -23,7 +23,8 @@ ping_average_response_ms{service_name='amazon',url='amazon.cn'}
 ping_average_response_ms{url=~"^amazon.*"}
 ping_average_response_ms{url!~"^amazon.*"}
 - double filtering
-ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
+  <br />
+  ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
 - filter by value
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 <br />
