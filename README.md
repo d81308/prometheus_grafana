@@ -2,9 +2,8 @@
 ## User manuals, packages
 
 [telegraf]
-plugin:
-  https://github.com/influxdata/telegraf
-<br />
+<ol>plugin:
+  https://github.com/influxdata/telegraf</ol>
 [prometheus]
 get_start:
   https://prometheus.io/docs/prometheus/latest/getting_started/
