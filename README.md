@@ -22,15 +22,15 @@ ping_average_response_ms{service_name='amazon',url='amazon.cn'}
 [filtering-with-regex]
 ping_average_response_ms{url=~"^amazon.*"}
 ping_average_response_ms{url!~"^amazon.*"}
-#### double filtering
+- double filtering
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
-#### filter by value
+- filter by value
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 <br />
 
 [vector=range]
 net_bytes_recv[1m]
-#### calculate speed
+- calculate speed
 rate(net_bytes_recv[1m])
-#### transform bytes to bit
+- transform bytes to bit
 rate(net_bytes_recv[1m])*8
