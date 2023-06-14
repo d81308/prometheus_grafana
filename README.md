@@ -4,7 +4,7 @@
 [telegraf]
 plugin:
   https://github.com/influxdata/telegraf
-
+<br />
 [prometheus]
 get_start:
   https://prometheus.io/docs/prometheus/latest/getting_started/
