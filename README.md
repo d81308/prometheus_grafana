@@ -1,5 +1,5 @@
 # prometheus_grafana
-## user manuals, packages
+## User manuals, packages
 
 [telegraf]
 plugin:
