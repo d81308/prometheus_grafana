@@ -6,8 +6,8 @@
   https://github.com/influxdata/telegraf</ol>
 [prometheus]
 <ol>get_start:
-  https://prometheus.io/docs/prometheus/latest/getting_started/
-github:
+  https://prometheus.io/docs/prometheus/latest/getting_started/</ol>
+<ol>github:
   https://github.com/prometheus/prometheus</ol>
 
 
