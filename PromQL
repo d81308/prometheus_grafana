@@ -10,3 +10,5 @@ ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}
 #filter by value
 ping_average_response_ms{url=~"^amazon.*",url!~"amazon.com"}>50
 
+[vector=range]
+net_bytes_recv[1m]
