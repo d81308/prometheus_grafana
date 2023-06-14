@@ -5,11 +5,10 @@
 <ol>plugin:
   https://github.com/influxdata/telegraf</ol>
 [prometheus]
-get_start:
+<ol>get_start:
   https://prometheus.io/docs/prometheus/latest/getting_started/
-  <br />
 github:
-  https://github.com/prometheus/prometheus
+  https://github.com/prometheus/prometheus</ol>
 
 
 ## PromQL
