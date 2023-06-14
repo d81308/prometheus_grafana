@@ -12,7 +12,7 @@
 
 
 ## PromQL
-#### More information in prometheus_get-start_website: https://prometheus.io/docs/prometheus/latest/getting_started/
+#### More information in prometheus.io_querying: https://prometheus.io/docs/prometheus/latest/querying/basics/
 [filtering]
 <ol><pre><code>ping_average_response_ms{service_name!='github'}
 ping_average_response_ms{service_name='amazon',url='amazon.cn'}</code></pre></ol>
