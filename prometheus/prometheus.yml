@@ -3,4 +3,4 @@ global:
 scrape_configs:
   - job_name: "sourcer-telegraf"
     static_configs:
-      - targets: ["telegraf-1:9273","telegraf-2:9274"]
+      - targets: ["telegraf-1:9273","telegraf-2:9274", "python-exporter:8000"]
