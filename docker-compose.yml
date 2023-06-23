@@ -45,3 +45,5 @@ services:
     volumes:
       - ./python/metrics:/metrics
     command: python app.py
+
+  
