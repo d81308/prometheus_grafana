@@ -43,5 +43,5 @@ services:
     ports:
       - 9275:8000
     volumes:
-      - ./python/metrics:/metrcs
+      - ./python/metrics:/metrics
     command: python -m http.server
