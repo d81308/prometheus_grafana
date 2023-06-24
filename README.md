@@ -1,2 +1,2 @@
 # prometheus-setup objectives
-add recording rule setup
+for testing net over 2000 case alerting
