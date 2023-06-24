@@ -8,3 +8,4 @@ build alertmanager image
 new folder for alertmanager setup
 
 ### prometheus yml push to alertmanager
+add new port to 9093
