@@ -24,10 +24,13 @@ services:
       - ./prometheus:/etc/prometheus
     command: --config.file=/etc/prometheus/prometheus.yml
   
+  alertmanager:
+  
   host1:
     image: busybox:latest
     restart: unless-stopped
     container_name: host1
     hostname: host1
     command: sh -c "while true; do sleep 3600; done"
-    
+
+
