@@ -1,6 +1,6 @@
 route:
-  recevier: dmeo
+  receiver: demo
 
-receviers:
-  - name: dmeo
-    email_config: 
+receivers:
+  - name: demo
+    email_configs:

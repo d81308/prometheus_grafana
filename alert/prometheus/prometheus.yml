@@ -13,7 +13,7 @@ scrape_configs:
         - telegraf:9273
 
 alerting:
-  alertmangers:
+  alertmanagers:
     - static_configs:
       - targets:
         - alertmanager:9093
