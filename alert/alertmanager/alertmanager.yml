@@ -1,0 +1,6 @@
+route:
+  recevier: dmeo
+
+receviers:
+  - name: dmeo
+    email_config: 

@@ -1,2 +1,10 @@
 # prometheus-setup objectives
 building alertmanager setup
+
+### docker-compose
+build alertmanager image
+
+### alertmanager yml
+new folder for alertmanager setup
+
+### prometheus yml push to alertmanager
