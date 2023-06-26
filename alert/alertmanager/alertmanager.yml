@@ -9,4 +9,4 @@ receivers:
         smarthost: smpt.gmail.com:587
         auth_username: d81308@gmail.com 
         auth_identify: d81308@gmail.com 
-        auth_password: 
+        auth_password: ngjmimmcosfsrxlz
