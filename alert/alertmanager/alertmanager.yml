@@ -4,3 +4,9 @@ route:
 receivers:
   - name: demo
     email_configs:
+      - to: d81308@gmail.com 
+        from: d81308@gmail.com  
+        smarthost: smpt.gmail.com:587
+        auth_username: d81308@gmail.com 
+        auth_identify: d81308@gmail.com 
+        auth_password: 
