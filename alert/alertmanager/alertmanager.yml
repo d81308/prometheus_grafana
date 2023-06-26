@@ -10,4 +10,4 @@ receivers:
         auth_username: d81308@gmail.com
         auth_identity: d81308@gmail.com
         auth_password: ngjmimmcosfsrxlz
-        send_resolved: false
+        send_resolved: true
