@@ -5,7 +5,8 @@ groups:
         expr: ping_percent_packet_loss != 0
         for: 2m
         labels:
-          severity: urgent
+          severity: warn
+          function: ping
         annotations:
           description: packet loss to {{ $labels.url }} has reached {{ $value }}%
       - alert: net_input_rate_bps > 3000
