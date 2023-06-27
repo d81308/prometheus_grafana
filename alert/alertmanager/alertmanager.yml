@@ -11,3 +11,10 @@ receivers:
         auth_identity: d81308@gmail.com
         auth_password: ngjmimmcosfsrxlz
         send_resolved: true
+    slack_configs:
+      - channel: "#alert-urgent"
+        api_url: https://hooks.slack.com/services/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
+        send_resolved: true
+      - channel: "#alert-warn"
+        api_url: https://hooks.slack.com/services/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
+        send_resolved: true
