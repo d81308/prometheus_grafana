@@ -10,6 +10,9 @@
 <ol>github-packages:
   https://github.com/prometheus/prometheus</ol>
 <br>
+[grafana]
+<ol>get_start:
+  https://grafana.com/tutorials/grafana-fundamentals/</ol>
 
 ## PromQL
 #### More information in prometheus.io_querying: https://prometheus.io/docs/prometheus/latest/querying/basics/
