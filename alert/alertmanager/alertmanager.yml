@@ -17,4 +17,6 @@ receivers:
         send_resolved: true
       - channel: "#alert-warn"
         api_url: https://hooks.slack.com/services/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
+        title_link: http://127.0.0.1:9093/#/alerts
+        text: "{{ range .Alerts }}{{ .Annotations.description }}\n{{ end }}"
         send_resolved: true
